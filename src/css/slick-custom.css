@@ -1,3 +1,8 @@
+/**
+ * @description: Custom styles to override the default slick slider styles
+ * @author: Luther
+ */
+
 .slick-dots {
 	bottom: -40px;
 }

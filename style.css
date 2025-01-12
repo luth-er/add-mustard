@@ -1,11 +1,24 @@
+/**
+ * @description: Main stylesheet for global styles and typography
+ * @author: Luther
+ */
+
 @import url('./src/css/our-work.css');
 @import url('./src/css/slide.css');
 @import url('./src/css/slick-custom.css');
 
+
+html,
+body {
+    height: auto;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+}
+
 body {
 	margin: 0 auto;
-	min-height: 100vh;
-	overflow: hidden;
 	background-color: #FAD762;
 	max-width: 1200px;
 }

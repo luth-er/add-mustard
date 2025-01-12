@@ -1,0 +1,67 @@
+.slick-dots {
+	bottom: -40px;
+}
+
+.slick-prev,
+.slick-next {
+	z-index: 1;
+	top: unset;
+	bottom: -100px;
+	width: unset;
+	height: unset;
+	background-color: #000;
+	padding: 20px;
+
+	&:hover,
+	&:focus {
+		background-color: #000;
+		opacity: 0.5;
+	}
+
+	&::before {
+		color: #FAD762;
+		font-size: 2rem;
+		opacity: 1;
+	}
+
+	&.slick-disabled:before {
+		opacity: 1;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.slick-prev,
+	.slick-next {
+		display: none !important;
+	}
+}
+
+.slick-prev {
+	left: 10px;
+	transform: rotate(-7deg);
+
+	&:hover {
+		transform: rotate(12deg);
+	}
+}
+
+.slick-next {
+	left: 10px;
+	right: unset;
+	transform: rotate(3deg);
+	margin-left: 100px;
+
+	&:hover {
+		transform: rotate(-12deg);
+	}
+}
+
+.slick-list {
+	overflow: visible;
+}
+
+@media screen and (max-width: 768px) {
+	.slick-list {
+		overflow: hidden !important;
+	}
+}

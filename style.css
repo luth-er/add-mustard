@@ -10,10 +10,10 @@
 
 html,
 body {
-    height: auto;
-    min-height: 100vh;
-    overflow: visible;
-    position: relative;
+	height: auto;
+	min-height: 100vh;
+	overflow: visible;
+	position: relative;
 }
 
 body {
